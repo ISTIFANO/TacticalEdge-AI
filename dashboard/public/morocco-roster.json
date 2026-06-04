@@ -1,0 +1,256 @@
+{
+  "team": "Morocco",
+  "group": "C — Brazil, Scotland, Haiti",
+  "team_color": [
+    193,
+    39,
+    45
+  ],
+  "key_stars": {
+    "captain": "Achraf Hakimi (#2)",
+    "goalkeeper": "Yassine Bounou (#1)",
+    "playmaker": "Brahim Diaz (#11)",
+    "midfield_leader": "Sofyan Amrabat (#6)",
+    "rising_stars": [
+      "Bilal El Khannouss (#17)",
+      "Ayoub Bouaddi (#18)",
+      "Chemsdine Talbi (#25)"
+    ]
+  },
+  "players": [
+    {
+      "shirt_number": 1,
+      "name": "Yassine Bounou",
+      "position": "Goalkeeper",
+      "role": "Goalkeeper",
+      "key_star": true,
+      "image": "/players/morocco/1.jpg",
+      "notes": "Starting GK — Group C 2026"
+    },
+    {
+      "shirt_number": 2,
+      "name": "Achraf Hakimi",
+      "position": "Right-back",
+      "role": "Defender",
+      "key_star": true,
+      "image": "/players/morocco/2.jpg",
+      "notes": "Captain"
+    },
+    {
+      "shirt_number": 3,
+      "name": "Noussair Mazraoui",
+      "position": "Left-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/3.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 4,
+      "name": "Issa Diop",
+      "position": "Center-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/4.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 5,
+      "name": "Nayef Aguerd",
+      "position": "Center-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/5.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 6,
+      "name": "Sofyan Amrabat",
+      "position": "Defensive Midfielder",
+      "role": "Midfielder",
+      "key_star": true,
+      "image": "/players/morocco/6.jpg",
+      "notes": "Midfield leader"
+    },
+    {
+      "shirt_number": 7,
+      "name": "Nael El Aynaoui",
+      "position": "Defensive Midfielder",
+      "role": "Midfielder",
+      "key_star": false,
+      "image": null,
+      "notes": ""
+    },
+    {
+      "shirt_number": 8,
+      "name": "Azzedine Ounahi",
+      "position": "Central Midfielder",
+      "role": "Midfielder",
+      "key_star": false,
+      "image": "/players/morocco/8.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 9,
+      "name": "Abde Ezzalzouli",
+      "position": "Left Winger",
+      "role": "Forward",
+      "key_star": false,
+      "image": null,
+      "notes": ""
+    },
+    {
+      "shirt_number": 10,
+      "name": "Youssef En-Nesyri",
+      "position": "Striker",
+      "role": "Forward",
+      "key_star": false,
+      "image": "/players/morocco/10.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 11,
+      "name": "Brahim Diaz",
+      "position": "Attacking Midfielder",
+      "role": "Forward",
+      "key_star": true,
+      "image": "/players/morocco/11.jpg",
+      "notes": "Playmaker"
+    },
+    {
+      "shirt_number": 12,
+      "name": "Munir Mohamedi",
+      "position": "Goalkeeper",
+      "role": "Goalkeeper",
+      "key_star": false,
+      "image": null,
+      "notes": "Backup GK"
+    },
+    {
+      "shirt_number": 13,
+      "name": "Youssef Belammari",
+      "position": "Left-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/13.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 14,
+      "name": "Ismael Saibari",
+      "position": "Attacking Midfielder",
+      "role": "Midfielder",
+      "key_star": false,
+      "image": null,
+      "notes": ""
+    },
+    {
+      "shirt_number": 15,
+      "name": "Zakaria El Ouahdi",
+      "position": "Right-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/15.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 16,
+      "name": "Anass Salah-Eddine",
+      "position": "Left-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/16.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 17,
+      "name": "Bilal El Khannouss",
+      "position": "Central Midfielder",
+      "role": "Midfielder",
+      "key_star": true,
+      "image": null,
+      "notes": "Rising star"
+    },
+    {
+      "shirt_number": 18,
+      "name": "Ayoub Bouaddi",
+      "position": "Central Midfielder",
+      "role": "Midfielder",
+      "key_star": true,
+      "image": null,
+      "notes": "Rising star"
+    },
+    {
+      "shirt_number": 19,
+      "name": "Soufiane Rahimi",
+      "position": "Striker",
+      "role": "Forward",
+      "key_star": false,
+      "image": "/players/morocco/19.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 20,
+      "name": "Chadi Riad",
+      "position": "Center-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/20.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 21,
+      "name": "Redouane Halhal",
+      "position": "Center-back",
+      "role": "Defender",
+      "key_star": false,
+      "image": "/players/morocco/21.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 22,
+      "name": "Ayoub El Kaabi",
+      "position": "Striker",
+      "role": "Forward",
+      "key_star": false,
+      "image": "/players/morocco/22.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 23,
+      "name": "Ahmed Reda Tagnaouti",
+      "position": "Goalkeeper",
+      "role": "Goalkeeper",
+      "key_star": false,
+      "image": "/players/morocco/23.jpg",
+      "notes": "Third GK"
+    },
+    {
+      "shirt_number": 24,
+      "name": "Eliesse Ben Seghir",
+      "position": "Left Winger",
+      "role": "Forward",
+      "key_star": false,
+      "image": "/players/morocco/24.jpg",
+      "notes": ""
+    },
+    {
+      "shirt_number": 25,
+      "name": "Chemsdine Talbi",
+      "position": "Left Winger",
+      "role": "Forward",
+      "key_star": true,
+      "image": "/players/morocco/25.jpg",
+      "notes": "Rising star"
+    },
+    {
+      "shirt_number": 26,
+      "name": "Samir El Mourabet",
+      "position": "Central Midfielder",
+      "role": "Midfielder",
+      "key_star": false,
+      "image": "/players/morocco/26.jpg",
+      "notes": ""
+    }
+  ]
+}
