@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+
+# Secrets & env
+.env
+.env.local
+chat_bot/api.env
+api.env
+
+# Data & large media
+data/
+input_videos/*.mp4
+input_videos/*.avi
+input_videos/*.mov
+
+# Node / frontend build
+dashboard/node_modules/
+dashboard/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
