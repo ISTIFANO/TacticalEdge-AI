@@ -1,0 +1,17 @@
+fastapi
+python-multipart
+uvicorn
+pulp
+flask
+google-generativeai
+ultralytics
+supervision
+opencv-python
+numpy
+pandas
+pytesseract
+scikit-learn
+pyngrok
+gdown
+pyshorteners
+firebase_admin
