@@ -1,0 +1,27 @@
+Shirt_Number,Player_Name,Position,Team_Color ,Role,Key_Star,Image_File,Notes
+1,Yassine Bounou,Goalkeeper,"[193, 39, 45]",Goalkeeper,Yes,1.jpg,Starting GK — Group C 2026
+2,Achraf Hakimi,Right-back,"[193, 39, 45]",Defender,Yes,2.jpg,Captain
+3,Noussair Mazraoui,Left-back,"[193, 39, 45]",Defender,No,3.jpg,
+4,Issa Diop,Center-back,"[193, 39, 45]",Defender,No,4.jpg,
+5,Nayef Aguerd,Center-back,"[193, 39, 45]",Defender,No,5.jpg,
+6,Sofyan Amrabat,Defensive Midfielder,"[193, 39, 45]",Midfielder,Yes,6.jpg,Midfield leader
+7,Nael El Aynaoui,Defensive Midfielder,"[193, 39, 45]",Midfielder,No,7.jpg,
+8,Azzedine Ounahi,Central Midfielder,"[193, 39, 45]",Midfielder,No,8.jpg,
+9,Abde Ezzalzouli,Left Winger,"[193, 39, 45]",Forward,No,9.jpg,
+10,Youssef En-Nesyri,Striker,"[193, 39, 45]",Forward,No,10.jpg,
+11,Brahim Diaz,Attacking Midfielder,"[193, 39, 45]",Forward,Yes,11.jpg,Playmaker
+12,Munir Mohamedi,Goalkeeper,"[193, 39, 45]",Goalkeeper,No,12.jpg,Backup GK
+13,Youssef Belammari,Left-back,"[193, 39, 45]",Defender,No,13.jpg,
+14,Ismael Saibari,Attacking Midfielder,"[193, 39, 45]",Midfielder,No,14.jpg,
+15,Zakaria El Ouahdi,Right-back,"[193, 39, 45]",Defender,No,15.jpg,
+16,Anass Salah-Eddine,Left-back,"[193, 39, 45]",Defender,No,16.jpg,
+17,Bilal El Khannouss,Central Midfielder,"[193, 39, 45]",Midfielder,Yes,17.jpg,Rising star
+18,Ayoub Bouaddi,Central Midfielder,"[193, 39, 45]",Midfielder,Yes,18.jpg,Rising star
+19,Soufiane Rahimi,Striker,"[193, 39, 45]",Forward,No,19.jpg,
+20,Chadi Riad,Center-back,"[193, 39, 45]",Defender,No,20.jpg,
+21,Redouane Halhal,Center-back,"[193, 39, 45]",Defender,No,21.jpg,
+22,Ayoub El Kaabi,Striker,"[193, 39, 45]",Forward,No,22.jpg,
+23,Ahmed Reda Tagnaouti,Goalkeeper,"[193, 39, 45]",Goalkeeper,No,23.jpg,Third GK
+24,Eliesse Ben Seghir,Left Winger,"[193, 39, 45]",Forward,No,24.jpg,
+25,Chemsdine Talbi,Left Winger,"[193, 39, 45]",Forward,Yes,25.jpg,Rising star
+26,Samir El Mourabet,Central Midfielder,"[193, 39, 45]",Midfielder,No,26.jpg,
