@@ -1,0 +1,249 @@
+@import "tailwindcss";
+@import "./styles/coach-design-system.css";
+
+@theme {
+  --color-pitch: #AAFF45;
+  --color-navy: #0D1B2A;
+  --color-navy-light: #111827;
+  --color-navy-lighter: #1a3a2a;
+  --color-coach-pitch: #0A3D1F;
+  --color-coach-lime: #AAFF45;
+  --color-coach-navy: #0D1B2A;
+  --color-coach-gold: #FFD700;
+  --color-coach-surface: #111827;
+  --color-coach-border: #1a3a2a;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-coach-heading: "Barlow Condensed", ui-sans-serif, system-ui, sans-serif;
+  --font-coach-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: var(--color-navy);
+  color: #e2e8f0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+/* World Cup 2030 theme */
+[data-wc-theme='dark'] {
+  --wc-bg: #0a0f1a;
+  --wc-card: #111827;
+  --wc-text: #f1f5f9;
+  --wc-muted: #94a3b8;
+  --wc-border: #1e293b;
+  --wc-gold: #c5a572;
+}
+
+[data-wc-theme='light'] {
+  --wc-bg: #f8fafc;
+  --wc-card: #ffffff;
+  --wc-text: #0f172a;
+  --wc-muted: #64748b;
+  --wc-border: #e2e8f0;
+  --wc-gold: #8b6914;
+}
+
+.wc-root .wc-card {
+  border-radius: 1rem;
+  border: 1px solid var(--wc-border);
+  background: var(--wc-card);
+}
+
+.wc-btn-primary {
+  border-radius: 0.75rem;
+  background: var(--wc-gold);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  color: #000;
+  transition: opacity 0.2s;
+}
+.wc-btn-primary:hover { opacity: 0.9; }
+
+.wc-btn-outline {
+  border-radius: 0.75rem;
+  border: 1px solid var(--wc-border);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  transition: border-color 0.2s;
+}
+.wc-btn-outline:hover { border-color: var(--wc-gold); }
+
+.wc-btn-edh {
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #c41e3a, #006233);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  transition: opacity 0.2s;
+}
+.wc-btn-edh:hover { opacity: 0.9; }
+.wc-btn-edh:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.wc-btn-pi {
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #f4af47, #d4922a);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  color: #1a0a0a;
+  transition: opacity 0.2s;
+}
+.wc-btn-pi:hover { opacity: 0.9; }
+.wc-btn-pi:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.wc-input {
+  border-radius: 0.5rem;
+  border: 1px solid var(--wc-border);
+  background: var(--wc-bg);
+  padding: 0.5rem 0.75rem;
+  color: var(--wc-text);
+}
+
+.wc-countdown-unit {
+  animation: wc-pulse 2s ease-in-out infinite;
+}
+
+@keyframes wc-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(197, 165, 114, 0.2); }
+  50% { box-shadow: 0 0 20px 4px rgba(197, 165, 114, 0.15); }
+}
+
+/* Fan Passport animations */
+.passport-shimmer {
+  background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.08) 50%, transparent 60%);
+  background-size: 200% 100%;
+  animation: passport-shimmer 3s ease-in-out infinite;
+}
+
+@keyframes passport-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.passport-card {
+  animation: passport-card-in 0.6s ease-out;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.passport-card:hover {
+  transform: translateY(-4px) rotateX(2deg);
+}
+
+@keyframes passport-card-in {
+  from { opacity: 0; transform: translateY(20px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.passport-mint-reveal {
+  animation: passport-mint-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes passport-mint-pop {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.passport-map-pulse {
+  animation: passport-map-pulse 2s ease-in-out infinite;
+}
+
+@keyframes passport-map-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(197, 165, 114, 0.5); }
+  50% { box-shadow: 0 0 12px 4px rgba(197, 165, 114, 0.3); }
+}
+
+.passport-notif-pulse {
+  animation: passport-notif 1.5s ease-in-out infinite;
+}
+
+@keyframes passport-notif {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.passport-hero {
+  position: relative;
+}
+
+.passport-badge {
+  animation: passport-card-in 0.5s ease-out backwards;
+}
+
+.passport-confetti {
+  background-image:
+    radial-gradient(circle, #C5A572 1px, transparent 1px),
+    radial-gradient(circle, #f4af47 1px, transparent 1px),
+    radial-gradient(circle, #a855f7 1px, transparent 1px);
+  background-size: 80px 80px, 120px 120px, 100px 100px;
+  background-position: 0 0, 40px 40px, 20px 60px;
+  animation: passport-confetti 4s linear infinite;
+  opacity: 0.15;
+}
+
+@keyframes passport-confetti {
+  from { background-position: 0 0, 40px 40px, 20px 60px; }
+  to { background-position: 0 80px, 40px 120px, 20px 140px; }
+}
+
+.passport-reward-banner {
+  animation: passport-reward-glow 2s ease-in-out infinite;
+}
+
+@keyframes passport-reward-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.2); }
+  50% { box-shadow: 0 0 24px 4px rgba(245, 158, 11, 0.15); }
+}
+
+.passport-cta {
+  animation: passport-card-in 0.4s ease-out;
+}
+
+.wc-nav-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.wc-nav-scroll::-webkit-scrollbar {
+  display: none;
+}
