@@ -1,0 +1,123 @@
+{
+  "match_summary": {
+    "match_summary": {
+      "my_team_performance": {
+        "formation": "0",
+        "score": "0.0 - 0.0",
+        "goals": 0.0,
+        "total_shots": 0.0,
+        "shots_on_target": 0.0,
+        "total_possession": "100.0%",
+        "accurate_passes": 5.0,
+        "pass_success_rate": "83.333333%",
+        "key_passes": 0.0,
+        "dribbles_success_rate": "0/0",
+        "tackle_success_rate": "0.0%",
+        "corners": 0
+      },
+      "opponent_performance": {
+        "formation": "0",
+        "score": "0.0 - 0.0",
+        "goals": 0.0,
+        "total_shots": 0.0,
+        "shots_on_target": 0.0,
+        "total_possession": "100.0%",
+        "accurate_passes": 5.0,
+        "pass_success_rate": "83.333333%",
+        "key_passes": 0.0,
+        "dribbles_success_rate": "0/0",
+        "tackle_success_rate": "0.0%",
+        "corners": 0
+      }
+    }
+  },
+  "recommendations": {
+    "recommendations_output": {
+      "best_formation": {
+        "formation": "4-4-2"
+      },
+      "players_recommendations": [
+        {
+          "number": "1",
+          "position": "Central Midfielder",
+          "status": "Starting 11"
+        },
+        {
+          "number": "14",
+          "position": "Left-back",
+          "status": "Starting 11"
+        },
+        {
+          "number": "20",
+          "position": "Center Forward",
+          "status": "Starting 11"
+        },
+        {
+          "number": "6",
+          "position": "Center-back",
+          "status": "Starting 11"
+        },
+        {
+          "number": "8",
+          "position": "Right Winger",
+          "status": "Starting 11"
+        },
+        {
+          "number": "15",
+          "position": "Center-back",
+          "status": "Substitute"
+        },
+        {
+          "number": "9",
+          "position": "Right Winger",
+          "status": "Substitute"
+        }
+      ]
+    }
+  },
+  "opponent_analysis": {
+    "analysis": {
+      "opponent_strengths": {
+        "defensive_discipline": "The team shows high passing accuracy (100% for several players) and maintains positional structure, indicating they are disciplined in keeping possession during build-up play.",
+        "ball_retention": "With a high overall pass success rate and key players comfortable distributing from the defensive and midfield thirds, they are capable of neutralizing intense pressure through short, accurate passing.",
+        "defensive_coverage": "The team relies on multiple players across the defensive line and midfield to perform interceptions and clearances, suggesting a collective approach to defensive duties."
+      },
+      "opponent_weaknesses": {
+        "lack_of_offensive_threat": "The team produced zero total shots, zero shots on target, and zero key passes, demonstrating a complete inability to transition into the final third or create goal-scoring opportunities.",
+        "static_playmaking": "There is a lack of dribbling attempts or successful forward play, suggesting they are too cautious and lack the creative flair needed to break down opposing defenses.",
+        "low_intensity_pressing": "The data shows no defensive tackle attempts or successful tackles, indicating the team is passive off the ball and does not challenge for possession effectively."
+      },
+      "counter_strategies": {
+        "high_press": "Implement an aggressive high press immediately upon losing possession. Since the opponent does not engage in tackles or aggressive movement, they will struggle to bypass a high-intensity press.",
+        "exploiting_the_final_third": "Because the opponent shows no offensive output, the defensive line can play an extremely high line, allowing your team to commit more numbers forward to overwhelm their defensive unit.",
+        "direct_attacking": "Target the half-spaces. Given the opponent's lack of defensive engagement (zero tackles), vertical passing and aggressive dribbling will be highly effective in disrupting their static defensive formation.",
+        "concentration_on_transitions": "Since the opponent relies on conservative, safe passing, focus on winning the ball in the midfield and quickly launching counter-attacks before their defensive mid-block can reorganize."
+      }
+    }
+  },
+  "training_suggestions": {
+    "team_training_session": "Implement an 'Aggressive High-Press & Transition' circuit. The session focuses on 4v4 transition rondo drills in the attacking third, emphasizing immediate ball recovery (Counter-pressing) when possession is lost, followed by rapid, vertical passing combinations to exploit the opponent's lack of defensive tackling and low-intensity pressure.",
+    "worst_5_players_individual_sessions": [
+      {
+        "player": "Central Midfielder",
+        "shirt_number": 1,
+        "drill": "Vertical Passing Progression: Focused on receiving the ball and immediately playing penetrating passes to the attacking unit to bypass the opponent's static midfield block."
+      },
+      {
+        "player": "Defensive Midfielder",
+        "shirt_number": 11,
+        "drill": "High-Line Positioning: Practice stepping up to the halfway line to maintain defensive structure while supporting the high press, ensuring quick recycling of possession."
+      },
+      {
+        "player": "Left-back",
+        "shirt_number": 14,
+        "drill": "Overlapping Runs: Focus on bursting forward to create numerical superiority in the wide half-spaces, exploiting the opponent's lack of defensive engagement."
+      },
+      {
+        "player": "Center-back",
+        "shirt_number": 15,
+        "drill": "High-Press Distribution: Training on launching long, accurate diagonals to wingers to catch the opponent's defense off-guard during transitions."
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+,shirtNumber,position,goals,total_shots,shots_on_target,shots_off_target,blocked_shots,saved_shots,total_passes,accurate_passes,key_passes,dribbles_attempted,dribbles_past,dribbles,tackles_attempted,tackles_won,clearances,interceptions,injuries,distance_covered,avg_speed,highest_speed,team,team_color,%_pass_success,%_dribbles_success,aerial_duels,%_aerial_success,offensive_aerials,defensive_aerials,%_tackles_success
+3,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0,489.4143213763406,211.4269868345791,547.6206903788033,2,[     228.19      228.57      218.55],0.0,0.0,0,0.0,0,0,0.0
+5,11,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0,2.324743938679179,1.3390525086792069,6.338402800925454,2,[     228.19      228.57      218.55],0.0,0.0,0,0.0,0,0,0.0
+11,9,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0,7.0,4.032,120.96000000000001,2,[     228.19      228.57      218.55],0.0,0.0,0,0.0,0,0,0.0
