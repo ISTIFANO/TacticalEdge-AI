@@ -11,6 +11,7 @@ venv/
 .env.local
 chat_bot/api.env
 api.env
+fire_base/fire_base.json
 
 # Data & large media
 data/

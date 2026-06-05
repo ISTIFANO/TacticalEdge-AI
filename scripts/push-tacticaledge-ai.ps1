@@ -82,7 +82,7 @@ $commits = @(
         "event_process", "formation_detector", "goal_and_line_processor", "new_data_handler",
         "pass_detector", "player_ball_assigner", "player_number_detector", "player_stats",
         "shot_detector", "speed_and_distance_estimator", "substitution_detector", "team_assigner",
-        "team_stats", "team_process", "utils", ".gitattributes", "download_models.sh", "fire_base", "input_videos/Atef.txt"
+        "team_stats", "team_process", "utils", ".gitattributes", "download_models.sh", "input_videos/Atef.txt"
     ) }
 )
 
