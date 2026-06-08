@@ -46,7 +46,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.2 Coach Hub (`/coach`)
 
-![Coach Dashboard](screencapture-localhost-5174-coach-2026-06-08-09_30_27.png)
+![Coach Dashboard](/docs/screencapture-localhost-5174-coach-2026-06-08-09_30_27.png)
 
 **Route :** `/coach` (protégé)
 
@@ -77,7 +77,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.3 Analyze Videos (`/app/upload`)
 
-![Analyze Videos](screencapture-localhost-5174-app-upload-2026-06-08-09_30_45.png)
+![Analyze Videos](/docs/screencapture-localhost-5174-app-upload-2026-06-08-09_30_45.png)
 
 ### Champs upload
 
@@ -102,7 +102,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.4 Overview — Season Analytics (`/app`)
 
-![Overview Analytics](screencapture-localhost-5174-app-2026-06-08-09_31_32.png)
+![Overview Analytics](/docs/screencapture-localhost-5174-app-2026-06-08-09_31_32.png)
 
 ### Charts & KPIs
 
@@ -133,7 +133,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.5 Coach Assistant (`/app/assistant`)
 
-![Coach Assistant](screencapture-localhost-5174-app-assistant-2026-06-08-09_32_03.png)
+![Coach Assistant](/docs/screencapture-localhost-5174-app-assistant-2026-06-08-09_32_03.png)
 
 | Champ | Description |
 |-------|-------------|
@@ -147,7 +147,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.6 Recommendations (`/app/recommendations`)
 
-![Recommendations](screencapture-localhost-5174-app-recommendations-2026-06-08-09_32_27.png)
+![Recommendations](/docs/screencapture-localhost-5174-app-recommendations-2026-06-08-09_32_27.png)
 
 | Section | Champs |
 |---------|--------|
@@ -163,7 +163,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.7 Squad Breakdown (`/app/squads`)
 
-![Squad Breakdown](screencapture-localhost-5174-app-squads-2026-06-08-09_33_07.png)
+![Squad Breakdown](/docs/screencapture-localhost-5174-app-squads-2026-06-08-09_33_07.png)
 
 | Champ joueur | Source |
 |--------------|--------|
@@ -257,7 +257,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 2.2 Hôtels (`/world-cup/hotels`)
 
-![Hotels](part2-2%20(2).png)
+![Hotels](/docs/part2-2%20(2).png)
 
 ### Filtres
 
@@ -286,7 +286,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 2.3 Paiement (modal)
 
-![Paiement e-Dirham / Pi](PAYMENT2.png)
+![Paiement e-Dirham / Pi](/docs/PAYMENT2.png)
 
 | Champ | Exemple |
 |-------|---------|
@@ -297,13 +297,13 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 | `hint` | Portefeuille connecté pour finaliser |
 | **Actions** | Annuler · Payer en e-Dirham / Payer en π |
 
-> Capture alternative : [part2-3.png](part2-3.png)
+> Capture alternative : [/docs/part2-3.png](part2-3.png)
 
 ---
 
 ## 2.4 Fan Dashboard (`/world-cup/dashboard`)
 
-![Fan Dashboard](part2-beforlastone.png)
+![Fan Dashboard](/docs/part2-beforlastone.png)
 
 ### Profil fan
 
@@ -352,7 +352,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 2.5 Passeport Fan (`/world-cup/passport`)
 
-![Passeport Fan](part2-lastone.png)
+![Passeport Fan](/docs/part2-lastone.png)
 
 ### Compteurs
 
@@ -447,12 +447,12 @@ First Kickoff · Hat Trick Fan · Stadium Regular · Final Witness · Ground Exp
 
 | Fichier | Page |
 |---------|------|
-| [part2-1.png](part2-1.png) | Accueil WC complet |
-| [part2-2 (2).png](part2-2%20(2).png) | Hôtels |
-| [part2-3.png](part2-3.png) | Modal paiement |
-| [PAYMENT2.png](PAYMENT2.png) | Modal paiement (variante) |
-| [part2-beforlastone.png](part2-beforlastone.png) | Fan Dashboard |
-| [part2-lastone.png](part2-lastone.png) | Passeport Fan |
+| [part2-1.png](/docs/part2-1.png) | Accueil WC complet |
+| [part2-2 (2).png](/docs/part2-2%20(2).png) | Hôtels |
+| [part2-3.png](/docs/part2-3.png) | Modal paiement |
+| [PAYMENT2.png](/docs/PAYMENT2.png) | Modal paiement (variante) |
+| [part2-beforlastone.png](/docs/part2-beforlastone.png) | Fan Dashboard |
+| [part2-lastone.png](/docs/part2-lastone.png) | Passeport Fan |
 
 ---
 
