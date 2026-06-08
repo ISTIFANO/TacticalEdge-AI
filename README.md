@@ -22,7 +22,7 @@ Deux modules principaux : **Partie 1 — Marketing & Coach Analytics** · **Part
 
 ## 1.1 Page d’accueil marketing (`/`)
 
-![Accueil morocco2030.PI](part1-1.png)
+![Accueil morocco2030.PI](/docs/part1-1.png)
 
 **Route :** `/`  
 **Rôle :** Landing page FIFA World Cup 2030 + entrée Coach Dashboard
